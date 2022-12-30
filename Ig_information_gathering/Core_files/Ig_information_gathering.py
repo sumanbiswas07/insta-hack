@@ -27,7 +27,7 @@ def AskUser(session):
         if command.lower() == "help" : 
             print (f'{dict["Help"]}')	
             AskUser()
-        elif command.lower() == "exit" :
+        elif command.lowerxit" :https://instagram.com/_suman_biswas07?igshid=YmMyMTA2M2Y=
             print (f'{BG_P} {dict["GoodBye"]} {W}')
             sys.exit()
         else :
