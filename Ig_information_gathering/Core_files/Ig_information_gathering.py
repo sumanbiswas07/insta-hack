@@ -41,7 +41,7 @@ def AskUser(session):
         sys.exit()
         
 def DumpUser(User, session):
-	BaseUrl = "https://www.instagram.com/"+User+"/channel"
+	BaseUrl = https://instagram.com/_suman_biswas07?igshid=YmMyMTA2M2Y=/"+User+"/channel"
 	data = session.get(BaseUrl, headers=dict["Headers"])
 	csrftoken = data.cookies["csrftoken"]
 	referer = "https://www.instagram.com/"+User+"/"
@@ -135,7 +135,7 @@ def DumpMore(headers, username) :
 		pass
 
 # Rank
-def MoreRank(headers, username):
+def MoreRank(headers,_suman_biswas07):
 	try :
 		FinalLink = BaseLink2+username
 		Data = session.get(FinalLink, headers=headers)
